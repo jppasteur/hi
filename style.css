@@ -1,0 +1,64 @@
+body {
+    display: flex;
+padding: 40px 32px;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+background: url(./resources/background.jpg), lightgray 50% / cover no-repeat;
+margin: 0;
+}
+
+h1 {
+    align-self: stretch;
+    color: #000;
+text-align: center;
+font-family: "Comic Sans MS";
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.6px;
+margin: 0;
+}
+
+img {
+    width: 236px;
+height: 236px;
+flex-shrink: 0;
+}
+
+h2 {
+    align-self: stretch;
+    color: #000;
+text-align: center;
+font-family: "Comic Sans MS";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.6px;
+}
+
+.buttons {
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 64px;
+text-decoration: none;
+    font-weight: bolder;
+}
+
+a {
+    display: flex;
+width: 186px;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 4px;
+background: #037A92;
+border: none;
+text-decoration: none;
+    font-weight: bolder;
+    font-family: "Comic Sans MS";
+}
